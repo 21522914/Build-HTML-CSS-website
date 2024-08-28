@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e2d2c9;
+    overflow: hidden;
+    position: relative;
+}
+
+/* header */
+.header-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2.5rem 7rem;
+}
+
+.brand{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.icon i{
+    font-size: 25px;
+    margin-right: 25px;
+}
+
+.nav a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    margin-left: 3rem;
+}
+
+.heading{
+    position: absolute;
+    left: 28%;
+    top: 15%;
+    font-size: 14rem;
+    color: #82520a;
+}
+
+.images img{
+    width: 18%;
+}
+
+.images img:nth-child(1){
+    position: absolute;
+    top: 55%;
+    left: 20%;
+}
+
+.images img:nth-child(2){
+    position: absolute;
+    margin-top: -50px;
+    left: 58%;
+}
+
+.images img:nth-child(3){
+    position: absolute;
+    top: 17%;
+    left: 25%;
+    width: 10%;
+}
