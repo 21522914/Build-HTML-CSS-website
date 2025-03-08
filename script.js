@@ -8,7 +8,7 @@ function toggleMenu() {
 //play video
 const modalOverlayReactJS = document.getElementById("modalOverlayReactJS");
 const btnPlayDemoReactJS = document.getElementById("btn-play-demo-reactJS");
-const closeModalBtn = document.getElementById('closeModalReactJS');
+const closeModalBtn = document.getElementById("closeModalReactJS");
 const videoReactJS = document.getElementById("videoReactJS");
 
 //Mở Modal bằng nút Live Demo
